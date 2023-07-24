@@ -1,9 +1,5 @@
-TOKEN = "6201618437:AAFIFUvKT52EBS3_VfiOpwKGFt1vZDjNuSw"
+TOKEN = "YOUR_BOT_TOKEN"
 
-cryptoTOKEN = "92060:AA6wpBkDkME6keNP22uNrryimVNJMMh8XDT"
+cryptoTOKEN = "YOUR_CRYPTO_TOKEN_FROM_aiocryptopay"
 
-mainAdmin = 729333298
-
-# 92060:AA6wpBkDkME6keNP22uNrryimVNJMMh8XDT #main net
-
-# 6947:AAYYOwnvluCSKucqgpdRWnYeFyrBMOckrOj #test net
+mainAdmin = YOUR_ID
