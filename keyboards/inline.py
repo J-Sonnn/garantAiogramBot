@@ -97,7 +97,7 @@ async def sendDeal():
 async def withdraw():
     keyboard = InlineKeyboardMarkup(resize_keyboard=True, row_width=1)
     keyboard.add(
-        InlineKeyboardButton(text='Админ 👀🦈', url="https://t.me/Shark_Garant_ADMIN"),
+        InlineKeyboardButton(text='Админ 👀🦈', url="YOUR_TELEGRAM_ACCAUNT_URL"),
         InlineKeyboardButton(text='Назад ↩', callback_data='back')
     )
     return keyboard
@@ -153,7 +153,7 @@ async def other():
     keyboard = InlineKeyboardMarkup(resize_keyboard=True, row_width=1)
     keyboard.add(
         InlineKeyboardButton(text='Как пользоваться ботом? 🤖', callback_data='manual'),
-        InlineKeyboardButton(text='Поддержка ☎️', url="https://t.me/Shark_Garant_ADMIN"),
+        InlineKeyboardButton(text='Поддержка ☎️', url="YOUR_TELEGRAM_ACCAUNT_URL"),
         InlineKeyboardButton(text='Кубик 🎲', callback_data='game'),
         InlineKeyboardButton(text='Назад ↩', callback_data='back'))
     return keyboard
@@ -162,7 +162,7 @@ async def other():
 async def backManual():
     keyboard = InlineKeyboardMarkup(resize_keyboard=True, row_width=1)
     keyboard.add(
-        InlineKeyboardButton(text='Поддержка ☎️', url="https://t.me/Shark_Garant_ADMIN"),
+        InlineKeyboardButton(text='Поддержка ☎️', url="YOUR_TELEGRAM_ACCAUNT_URL"),
         InlineKeyboardButton(text='Назад ↩', callback_data='back'))
     return keyboard
 
